@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Button : MonoBehaviour
 //         var posY = tf.position;
 //         posY.y += 1.2f;
 //         tf.position = posY;
+    
     }
 
     // Update is called once per frame
@@ -46,7 +48,11 @@ public class Button : MonoBehaviour
 
     public void OnClick () {
         Debug.Log("押された");
-         var player = GameObject.Find("Player");
+
+        //画面開く
+        //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+
+        var player = GameObject.Find("Player");
         var tf = player.GetComponent<Transform>();
         var posY = tf.position;
         posY.y += 1.2f;
