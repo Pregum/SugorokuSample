@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class goal : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called before the first frame updateaaa
     void Start()
     {
         
-    }
+    }ß
 
     // Update is called once per frame
     void Update()
