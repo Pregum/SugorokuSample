@@ -8,7 +8,7 @@ public class goal : MonoBehaviour
     void Start()
     {
         
-    }ß
+    }
 
     // Update is called once per frame
     void Update()
