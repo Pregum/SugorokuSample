@@ -18,6 +18,7 @@ public class Button : MonoBehaviour
 //         var posY = tf.position;
 //         posY.y += 1.2f;
 //         tf.position = posY;
+    
     }
 
     // Update is called once per frame
@@ -49,7 +50,7 @@ public class Button : MonoBehaviour
         Debug.Log("押された");
 
         //画面開く
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
 
         var player = GameObject.Find("Player");
         var tf = player.GetComponent<Transform>();
